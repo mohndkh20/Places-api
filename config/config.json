@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "mondkaled4",
+    "database": "places",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "mysql://b61d38c4863e39:7fe13790@us-cdbr-east-05.cleardb.net/heroku_020205f9cf67af6?reconnect=true",
+    "dialect": "mysql"
+  }
+}
